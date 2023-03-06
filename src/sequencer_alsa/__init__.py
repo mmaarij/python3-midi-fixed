@@ -1,4 +1,1 @@
-try:
-    from sequencer import *
-except ImportError:
-    pass
+from .sequencer import *
