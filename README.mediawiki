@@ -24,7 +24,11 @@ feature set to offer.
 * A tempo map that actively keeps track of tempo changes within a track.
 * A reader and writer, so you can read and write your MIDI tracks to disk.
 
-==Installation==
+==Installation (Pip3)==
+Run the following command:
+$ pip3 install git+https://github.com/mmaarij/python3-midi-fixed.git
+
+==Installation (Manual)==
 First, make sure you have swig installed (www.swig.org)
 
 Follow the [http://docs.python.org/2/install/index.html normal procedure for Python module installation]:
