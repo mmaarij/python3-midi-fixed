@@ -62,7 +62,7 @@ class FileReader(object):
         if MetaEvent.is_event(stsmsg):
             cmd = next(trackdata)
             if cmd not in EventRegistry.MetaEvents:
-                warn("Unknown Meta MIDI Event: " + `cmd`, Warning)
+                warn("Unknown Meta MIDI Event: " + 'cmd', Warning)
                 cls = UnknownMetaEvent
             else:
                 cls = EventRegistry.MetaEvents[cmd]
